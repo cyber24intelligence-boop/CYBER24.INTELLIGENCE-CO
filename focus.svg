@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-label="Focus areas: AI Research, Security Engineering, Threat Intelligence, Cloud Security">
+  <defs>
+    <style>
+      .p { font-family: Inter, 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: 500; letter-spacing: 6px; text-anchor: middle; fill: #8A8A8A; opacity: 0; animation: cycle 12s ease-in-out infinite both; }
+      .p2 { animation-delay: 3s; } .p3 { animation-delay: 6s; } .p4 { animation-delay: 9s; }
+      @keyframes cycle { 0% { opacity: 0; transform: translateY(8px); } 4% { opacity: 1; transform: translateY(0); } 22% { opacity: 1; transform: translateY(0); } 26% { opacity: 0; transform: translateY(-8px); } 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .p { animation: none; opacity: 0; } .p1 { opacity: 1; } }
+    </style>
+  </defs>
+  <text class="p p1" x="500" y="36">AI RESEARCH</text>
+  <text class="p p2" x="500" y="36">SECURITY ENGINEERING</text>
+  <text class="p p3" x="500" y="36">THREAT INTELLIGENCE</text>
+  <text class="p p4" x="500" y="36">CLOUD SECURITY</text>
+</svg>
